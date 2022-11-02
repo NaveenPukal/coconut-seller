@@ -1,0 +1,107 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.quote-btn{
+  background-image: linear-gradient(to right,#16a412,#28bc36);
+  border-radius: 30px;
+}
+.text-center {
+  text-align: center!important;
+}
+.roundImage{
+  border-radius: 50%;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.roundImage1{
+  border-radius: 50%;
+ 
+}
+h3.widget-title {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 20px;
+  border-bottom: solid 2px #fff;
+  border-top: solid 1px #fff;
+  padding: 4% 0;
+}
+.textwidget{
+  color:'white'
+}
+.linkk {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.linkk:hover{
+  color:black !important
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+  clear: both;
+  font-weight: 400;
+  color: var(--bs-dropdown-link-color);
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+.pTag{
+  font-size: 15px;
+  color: rgb(112, 112, 112);
+}
+
+element.style {
+}
+.wp-block-image:not(.is-style-rounded)>a, .wp-block-image:not(.is-style-rounded) img {
+    border-radius: inherit;
+}
+.wp-block-image img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+}
